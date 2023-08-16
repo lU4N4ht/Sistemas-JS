@@ -5,7 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: linear-gradient(0deg, #708ddb 0%, #dbdfff);
+    padding-block: 2em;
+    background-color: #dbdfff;
+    /*background: linear-gradient(0deg, #708ddb 0%, #dbdfff);*/
     height: 100vh;
     display: grid;
     justify-content: center;
@@ -13,7 +15,7 @@ body{
     font-weight: 400;
     font-size: 1em;
     color: #101010;
-    gap: 1em;
+    gap: 2em;
     /*background-repeat: no-repeat;*/
 }
 .container{
@@ -31,6 +33,7 @@ body{
     display: grid;
 }
 input{
+    text-align: center;
     height: 3em;
     width: 14.5em;
 }
@@ -44,9 +47,9 @@ button{
     font-weight: 600;
     height: 3em;
     width: 14.5em;
-    color: #454545;
+    color: #2f447b;
     background-color: #F7F7F7;
-    border: 1px solid #454545;
+    border: 1.5px solid #2f447b;
     border-radius: 0.2em;
     cursor: pointer;
     transition: 0.4s all ease;
@@ -55,7 +58,7 @@ button:hover{
     transform: translateY(-0.125em);
     color: #F7F7F7;
     background-color: #708ddb;
-    border: 1px solid #454545;
+    border: 1px solid #2f447b;
     
 }
 .resultado{
